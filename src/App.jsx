@@ -5,6 +5,7 @@ import './App.css'
 import { HeartAnimation } from './components/HeartAnimation'
 import PolaroidPhoto from './components/PolaroidPhoto'
 import TimeCounter from './components/TimeCounter'
+import foto1 from '../public/foto-3.jpeg'
 
 function App() {
   const startDate = new Date("2023-03-04T00:00:00");
@@ -20,7 +21,7 @@ function App() {
 
   const memories = [
     {
-      imageUrl: "../../public/foto-3.jpeg",
+      imageUrl: foto1,
       title: "Nosso Início",
       text: "Tudo começou em 4 de março de 2023. Desde aquele dia, cada momento juntos tem sido especial e único.",
       isRight: false,
