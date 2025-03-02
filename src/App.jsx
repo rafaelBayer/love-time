@@ -1,11 +1,15 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { HeartAnimation } from './components/HeartAnimation'
 import PolaroidPhoto from './components/PolaroidPhoto'
 import TimeCounter from './components/TimeCounter'
-import foto1 from '../public/foto-3.jpeg'
+import foto3 from '../public/foto-3.jpeg'
+import foto6 from '../public/foto-6.jpeg'
+import foto7 from '../public/foto-7.jpeg'
+import foto4 from '../public/foto-4.jpeg'
+import foto5 from '../public/foto-5.jpeg'
+import foto1 from '../public/foto-1.jpeg'
+
 
 function App() {
   const startDate = new Date("2023-03-04T00:00:00");
@@ -21,37 +25,37 @@ function App() {
 
   const memories = [
     {
-      imageUrl: foto1,
+      imageUrl: foto3,
       title: "Nosso Início",
       text: "Tudo começou em 4 de março de 2023. Desde aquele dia, cada momento juntos tem sido especial e único.",
       isRight: false,
     },
     {
-      imageUrl: "../../public/foto-6.jpeg",
+      imageUrl: foto6,
       title: "Primeiros Passos",
       text: "Cada passo que demos juntos nos trouxe a este momento. Construímos memórias que vão durar para sempre.",
       isRight: true,
     },
     {
-      imageUrl: "../../public/foto-7.jpeg",
+      imageUrl: foto7,
       title: "Aventuras",
       text: "Exploramos novos lugares e vivemos aventuras incríveis. Cada experiência nos aproximou ainda mais.",
       isRight: false
     },
     {
-      imageUrl: "../../public/foto-4.jpeg",
+      imageUrl: foto4,
       title: "Descobertas",
       text: "Descobrimos tantas coisas juntos – sobre o mundo e sobre nós mesmos. Crescemos e evoluímos como um casal.",
       isRight: true
     },
     {
-      imageUrl: "../../public/foto-5.jpeg",
+      imageUrl: foto5,
       title: "Momentos Simples",
       text: "Os momentos mais simples se tornaram os mais especiais quando estamos juntos. um filme, uma conversa...",
       isRight: false
     },
     {
-      imageUrl: "../../public/foto-1.jpeg",
+      imageUrl: foto1,
       title: "Dois Anos",
       text: "Dois anos de amor, respeito e companheirismo. Este é apenas o começo da nossa jornada juntos.",
       isRight: true
