@@ -20,37 +20,37 @@ function App() {
 
   const memories = [
     {
-      imageUrl: "../assets/foto-3.jpeg",
+      imageUrl: "../../public/foto-3.jpeg",
       title: "Nosso Início",
       text: "Tudo começou em 4 de março de 2023. Desde aquele dia, cada momento juntos tem sido especial e único.",
       isRight: false,
     },
     {
-      imageUrl: "../assets/foto-6.jpeg",
+      imageUrl: "../../public/foto-6.jpeg",
       title: "Primeiros Passos",
       text: "Cada passo que demos juntos nos trouxe a este momento. Construímos memórias que vão durar para sempre.",
       isRight: true,
     },
     {
-      imageUrl: "../assets/foto-7.jpeg",
+      imageUrl: "../../public/foto-7.jpeg",
       title: "Aventuras",
       text: "Exploramos novos lugares e vivemos aventuras incríveis. Cada experiência nos aproximou ainda mais.",
       isRight: false
     },
     {
-      imageUrl: "../assets/foto-4.jpeg",
+      imageUrl: "../../public/foto-4.jpeg",
       title: "Descobertas",
       text: "Descobrimos tantas coisas juntos – sobre o mundo e sobre nós mesmos. Crescemos e evoluímos como um casal.",
       isRight: true
     },
     {
-      imageUrl: "../assets/foto-5.jpeg",
+      imageUrl: "../../public/foto-5.jpeg",
       title: "Momentos Simples",
       text: "Os momentos mais simples se tornaram os mais especiais quando estamos juntos. um filme, uma conversa...",
       isRight: false
     },
     {
-      imageUrl: "../assets/foto-1.jpeg",
+      imageUrl: "../../public/foto-1.jpeg",
       title: "Dois Anos",
       text: "Dois anos de amor, respeito e companheirismo. Este é apenas o começo da nossa jornada juntos.",
       isRight: true
