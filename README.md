@@ -1,12 +1,21 @@
-# React + Vite
+# Love Time 💖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido para comemorar 2 anos de namoro, apresentando fotos e textos personalizados de maneira especial. Criado com **React.js** e **Tailwind CSS**, ele tem um design simples, elegante e responsivo.
 
-Currently, two official plugins are available:
+## ✨ Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js** (com Vite)
+- **Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 🚀 Como Rodar o Projeto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone o repositório e siga os passos abaixo:
+
+```bash
+git clone https://github.com/rafaelBayer/love-time.git
+cd love-time
+npm install
+npm run dev
+```
+
+Acesse o projeto no navegador através do link indicado no terminal.
